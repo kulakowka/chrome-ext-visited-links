@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "content_scripts": [ {
+      "css": [ "Custom.css" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+  "name": "Visited Links",
+  "description": "Change the color of visited links",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}
